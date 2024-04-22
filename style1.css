@@ -1,0 +1,66 @@
+/* Navigation bar */
+nav {
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+nav li {
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* Home page */
+#home {
+  background-image: url(Saket.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color:white;
+text-shadow: 2px 2px black
+}
+
+#home p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color:white;
+text-shadow: 2px 2px black
+}
+
+
+#home.box-container
+{  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px #000;
+  margin-bottom: 20px;
+  background-color: white;
+}
