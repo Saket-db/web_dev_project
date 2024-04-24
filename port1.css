@@ -623,6 +623,6 @@ animation and border radius */
 .skills{
     margin: 30px 20px;
     display: flex;
-    color: #76ABAE
+    background-color: #76ABAE;
     gap: 30px;
 }
